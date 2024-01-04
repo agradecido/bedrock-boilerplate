@@ -14,8 +14,8 @@ $ git clone https://github.com/agradecido/bedrock-boilerplate.git
 
 ### Docker Environment
 
-- Ensure Docker is installed and running on your machine. If you don't have Docker installed, follow [the official Docker installation guide](https://docs.docker.com/engine/install/).
-- Create a `.env` file in 'docker' directory based on the `.env.example` file provided in the repo. This file allows you to configure several aspects of your Docker environment, including:
+1. Ensure Docker is installed and running on your machine. If you don't have Docker installed, follow [the official Docker installation guide](https://docs.docker.com/engine/install/).
+2. Create a `.env` file in 'docker' directory based on the `.env.example` file provided in the repo. This file allows you to configure several aspects of your Docker environment, including:
   - PHP version (e.g., `PHPVERSION=php81`)
   - SQL server version (e.g., `DATABASE=mariadb104`)
   - Credentials for the database (e.g., `MYSQL_ROOT_PASSWORD`, `MYSQL_USER`, `MYSQL_PASSWORD`)
