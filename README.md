@@ -32,7 +32,7 @@ $ composer update
   - Database credentials (`DB_NAME`, `DB_USER`, `DB_PASSWORD`)
   - WordPress environment settings (`WP_ENV`, `WP_HOME`, `WP_SITEURL`)
   - Authentication unique keys and salts (can be generated using a WordPress salt generator)
-  - The database host (and the other database reñated information) in the Bedrock .env file should be set to the name of the SQL container, which will be created by Docker in the subsequent steps.
+  - The database host (and the other database related information) in the Bedrock .env file should be set to the name of the SQL container, which will be created by Docker in the subsequent steps.
 
 ### Docker Environment
 
